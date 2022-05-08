@@ -7,7 +7,7 @@ public class LogEntery {
     private Date accesTime;
     private String request;
     private int statusCode;//number refers weather the site found or not
-    private int bytesReturned;//number of bytes that is returned to the user whp made the request
+    private int bytesReturned;//number of bytes that is returned to the user who made the request
     private String contant;
     private String date;
 
