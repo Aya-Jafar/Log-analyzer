@@ -240,7 +240,7 @@ public class LogAnalyzer {
 
     public static void main(String[] args) throws IOException, ParseException {
         LogAnalyzer la = new LogAnalyzer();
-        File file = new File("C:\\Users\\SMART WAY\\Desktop\\texts\\short-test_log.txt");
+        File file = new File("short-test_log.txt");
 
         ArrayList<LogEntery> list = la.readFile(file);
         // print all list content
